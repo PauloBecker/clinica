@@ -15,7 +15,7 @@ class createAdressDto {
   rua!: string;
 }
 
-export class createPatientDto {
+export class CreatePatientDto {
   @IsString()
   @IsNotEmpty()
   nome!: string;
