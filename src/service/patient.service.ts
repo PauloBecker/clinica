@@ -2,7 +2,7 @@ import { Like, Repository } from 'typeorm';
 
 import { CreatePatientDto } from '../controller/dto/create-patient.dto';
 import { Paciente } from '../model/patient.model';
-import { PatientRepository } from '../repositories/paciente.repository';
+import { PatientRepository } from '../repositories/patient.repository';
 
 export interface Patient {
   id: number;
