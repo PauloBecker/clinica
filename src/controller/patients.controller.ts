@@ -1,9 +1,9 @@
 import { plainToClass } from "class-transformer";
 import { validateOrReject } from "class-validator";
 import { Request, Response } from "express";
-import * as patientService from "../services/patient.service";
+import * as patientService from "../service/patient.service";
 import { CreatePatientDto } from "./dto/create-patient.dto";
-import { PatientService } from "../services/patient.service";
+import { PatientService } from "../service/patient.service";
 
 
 
